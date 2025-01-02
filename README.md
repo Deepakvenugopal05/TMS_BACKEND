@@ -132,13 +132,6 @@ To run tests, use:
 pytest
 ```
 
-### Linting
-Use `flake8` for linting:
-
-```bash
-flake8 app/
-```
-
 ---
 
 ## Contributing
