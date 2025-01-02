@@ -16,7 +16,7 @@ This is the backend for the Task Management System built using Python and Flask.
   - Managers assign tasks to Users.
   - Support for subtasks linked to main tasks.
 - **Comment System:** Allows users to add comments on tasks.
-- **Database:** PostgreSQL for persistent data storage.
+- **Database:** SQLite for persistent data storage.
 - **Error Handling:** Robust error handling for smoother operations.
 - **API Documentation:** RESTful APIs for seamless integration.
 
@@ -81,7 +81,7 @@ task_management_backend/
    FLASK_APP=run.py
    FLASK_ENV=development
    SECRET_KEY=your_secret_key
-   DATABASE_URL=postgresql://username:password@localhost:5432/task_management
+   DATABASE_URL=sqlite://username:password@localhost:5432/task_management
    ```
 
 5. **Run database migrations:**
